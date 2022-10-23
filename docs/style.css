@@ -2,18 +2,21 @@ body {
     font-family: "Verdana";
     background-color: #92A7B5}
 h1 {
-    font-size: 250%
+    font-size: 250%;
+    text-indent: 3%;
 }
 h2 {
     font-size: 200%;
     text-align: center;
 }
 h3 {
-    font-size: 150%
+    font-size: 150%;
+    text-indent: 10px;
 }
 p {
     padding: 0% 5% 0% 2%;
     text-align: justify;
+    
 }
 hr {
     border: 1px solid black;
@@ -62,6 +65,18 @@ nav {
     padding: 50px;
     margin: auto;
 }
+.img2 div {
+    text-align: center;
+    width: 90%;
+    border-radius: 30px;
+    border-color: #DB9354;
+    border-style: solid;
+    border-width: 10px;
+    padding: 50px;
+    margin: 5px 20px 8% 20px;
+    background-color:#FCC573;
+    
+}
 
 
 .center {
@@ -82,11 +97,11 @@ table {
 
 
 /* CSS HEX
---#D8B29F;
+--#FCC573;
 --#92A7B5;
 --#84889C;
 --#4C545C;
---#A68371;
+--#DB9354;
 --; 
  * ogborder: #8ac1c1
  * ogbg: #eef6f6*/
