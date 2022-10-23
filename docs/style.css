@@ -22,10 +22,11 @@ hr {
     color: red;
     text-align: center}
 
-.img2 p img {
+.img2 figure {
     float: left;
     margin: 5px;
 }
+figcaption {text-align:center}
 
 footer {
     background-color: #84889C;
@@ -64,10 +65,19 @@ nav {
 
 
 .center {
+    text-align:center;
     margin: auto;
     width: 50%;
-    border: 3px solid green;
     padding: 10px;
+}
+
+table, td, th {
+  border: 1px solid;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
 
