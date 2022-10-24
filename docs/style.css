@@ -25,10 +25,7 @@ hr {
     color: red;
     text-align: center}
 
-.img2 figure {
-    float: left;
-    margin: 5px;
-}
+
 figcaption {text-align:center}
 
 footer {
@@ -53,7 +50,10 @@ nav {
     border-radius: 30px;
     float: none}
 
-
+.img2 figure {
+    float: left;
+    margin: 5px;
+}
 
 .box {
     text-align: center;
@@ -86,14 +86,6 @@ nav {
     padding: 10px;
 }
 
-table, td, th {
-  border: 1px solid;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
 
 
 /* CSS HEX
