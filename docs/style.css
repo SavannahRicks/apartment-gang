@@ -3,22 +3,42 @@ body {
     font-family: "Verdana";
     background-color: #92A7B5}
 
-nav {
-    background: #DB9354;
-    padding: 0;
-    height: 29px;
-    width: 100%;
+nav#nav {
+    margin: 0;
+    background-color: #DB9354;
 }
 
-nav a {
-    text-align: center;
-    word-spacing: 10px;
-    padding: 1% 2% 1% 2%;
-    float: left;
-    background: #DB9354;
+nav {
+    width: 100%;
+    margin: 0;
 }
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 nav a:hover {
     background-color: #FCC573;
+}
+
+.indexbut {
+    background-color: #DB9354;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100%;
+    margin: 0px 0px 0px 0px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.indexbut:hover {
+    background-color: #FCC573;
+    color: black;
 }
 
 a {
@@ -122,23 +142,46 @@ footer {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
-.ava-specs {
-    line-height: 0.8;
+/* AVA STUFF ************************************************************ */
+body#ava{text-align: left;}
+body#ava h5, h4 {font-size: 105%;
+text-align: left;}
+body#ava span {font-weight: bold;}
+body#ava p{padding: 0;
+    margin: 0;
+    text-align: left;}
+    
+/* SPECS ********************* */
+.ava-basics {
     text-align: center;
-    width: 15%;
+    width: 65%;
     border-radius: 30px;
     border-color: #DB9354;
     border-style: solid;
     border-width: 10px;
     padding: 1% 3% 1% 1%;
-    margin: 5px 20px 8% 20px;
+    margin-right: 10px;
     background-color: #FCC573;
+    float: left;
 }
-.ava-specs p {
-    text-indent: 3%;
+.ava-basics span {
+    font-weight: bold;
 }
-.ava-specs span {font-weight: bold;}
+div#avaspecs {display: block;
+float: left;
+width:25%;}
+
+.ava-img {
+    top: 2000px;
+    right: 100px;
+    margin: 10px 30px 10px 60px;
+    padding: 0;
+    width: 20%;
+    background: black;
+    float: left;
+}
+
+
 /* CSS HEX
 --#FCC573;
 --#92A7B5;
