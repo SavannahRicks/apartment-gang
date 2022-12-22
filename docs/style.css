@@ -4,18 +4,19 @@ body {
     background-color: #92A7B5}
 
 nav#nav {
-    margin: 0;
     background-color: #DB9354;
+    
+    
 }
 
 nav {
-    width: 100%;
-    margin: 0;
+    width: 101.3%;
+    margin: -21px -.8% 0 -.8%;
+
 }
 nav ul {
     display: flex;
     list-style: none;
-    margin: 0;
     padding: 0;
 }
 
@@ -25,8 +26,9 @@ nav a:hover {
 
 .indexbut {
     background-color: #DB9354;
+    color: black;
     border: none;
-    padding: 15px 32px;
+    padding: 50px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -43,13 +45,19 @@ nav a:hover {
 
 a {
     padding-left: 2%;
+    color: black;
 }
 
-h1 {
+h1 {font-family: 'Chango';
     font-size: 250%;
     text-indent: 3%;
+    padding:25px 10px;
+    line-height: 31px;
+    float: left;
+    margin: auto;
 }
 h2 {
+font-family: 'Chango';
     font-size: 200%;
     text-align: center;
 }
@@ -73,7 +81,8 @@ hr {
 .warn {
     color: red;
     text-align: center}
-
+    
+.ind {margin-left: 100px;}
 
 figcaption {
     text-align: center
@@ -82,14 +91,7 @@ figcaption {
 footer {
     background-color: #84889C;
     padding: 1em 3em 1em 3em;
-    border-radius: 1%/15%}
-
-
-
-.navbox {
-    background: #DB9354;
-    width: 2000px;
-}
+    border-radius: 30px/15%}
 
 .mainimg {
     max-width: 600px;
@@ -99,15 +101,9 @@ footer {
     border-radius: 30px;
 
 }
-
-.cjimg figure {
-    float: left;
-    margin: 5px;
-}
-
 .indexbox {
-    text-align: center;
-    width: 500px;
+    text-align: left;
+    width: 1000px;
     border-radius: 30px;
     border-color: #84889C;
     border-style: solid;
@@ -115,6 +111,15 @@ footer {
     padding: 50px;
     margin: auto;
 }
+
+
+/* CJ STUFF**************************************************** */
+.cjimg figure {
+    float: left;
+    margin: 5px;
+}
+
+
 .cjimg div {
     text-align: center;
     width: 90%;
@@ -142,6 +147,8 @@ footer {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+
 /* AVA STUFF ************************************************************ */
 body#ava{text-align: left;}
 body#ava h5, h4 {font-size: 105%;
